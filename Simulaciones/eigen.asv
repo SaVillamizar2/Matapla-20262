@@ -18,6 +18,7 @@ for i = 3:5
     disp(Eval{i});
     disp(['Eigenvectors for matrix K(' num2str(i) '):']);
     disp(Evec{i});
+    disp(['Eigenvectors for matrix K('])
 end
 
 
