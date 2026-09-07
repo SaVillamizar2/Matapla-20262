@@ -1,6 +1,6 @@
 % 1. Parámetros temporales y frecuencias
-w1 = 1;
-w2 = sqrt(11/10);
+w1 = sqrt(1/20);
+w2 = sqrt(41/20);
 
 % Intervalo suficiente para ver 1 o 2 ciclos completos de transferencia de energía
 t = linspace(0, 150, 2000); 
@@ -9,7 +9,6 @@ t = linspace(0, 150, 2000);
 u1 = 0.5 * cos(w1 * t) + 0.5 * cos(w2 * t);
 u2 = 0.5 * cos(w1 * t) - 0.5 * cos(w2 * t);
 u3 = u1 + u2;
-
 % 3. Gráfica de los desplazamientos
 figure('Color', 'w');
 
