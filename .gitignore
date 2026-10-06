@@ -1,0 +1,40 @@
+Tarea 1 26.2 .pdf
+Tarea 1 MATAPLA .pdf
+Tarea 2 26.2 .pdf
+Tarea 2 MATAPLA.pdf
+Tarea 3 26.2 .pdf
+
+# Imágenes
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+*.PNG
+*.JPG
+*.JPEG
+*.GIF
+*.BMP
+*.TIF
+*.TIFF
+*.WEBP
+*.SVG
+
+# Documentos PDF
+*.pdf
+*.PDF
+*.doc
+*.docx
+*.DOC
+*.DOCX
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+.env/
+mi_env/
